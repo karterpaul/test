@@ -1,6 +1,6 @@
 <?php
 
-require_once("../MyClass.php");
+require_once("/var/www/html/test/MyClass.php");
 
 class MyClassTest extends PHPUnit_Framework_TestCase {
 
@@ -9,4 +9,5 @@ class MyClassTest extends PHPUnit_Framework_TestCase {
         $this->assertEquals(1, $x->demo(1));
     }
 }
+
 ?>
